@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "ZK_Implementations"
+name = "zk_implementations"
 version = "0.1.0"
