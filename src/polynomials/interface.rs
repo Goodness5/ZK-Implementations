@@ -6,8 +6,8 @@ pub trait PolynomialTrait {
 
     
     
-    fn evaluate(&self, x: usize) -> usize;
+    fn evaluate(&self, x: isize) -> isize;
     fn degree(&self) -> usize;
-    fn interpolate(&self) -> Polynomial;
+    fn interpolate(&self) -> String;
     // fn evaluate(x: Vec<usize, usize>) -> Polynomial;
 }
