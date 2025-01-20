@@ -49,7 +49,7 @@ pub use crate::polynomials::interface::PolynomialTrait;
 
         fn degree(&self) -> usize {
             
-        return  0;
+             return  self.terms.len() -1;
 
         }
 
