@@ -1,3 +1,0 @@
-Assignment
-
-Create a multilinear polynomial that implements and verifies the fibonnaci sequence at any 4 points
