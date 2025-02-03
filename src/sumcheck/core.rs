@@ -140,7 +140,6 @@ fn verify<F: PrimeField, P: MultilinearPolynomial<F>>(
 
     let mut current_sum = claimed_sum;
     let mut challenges = Vec::with_capacity(num_vars);
-
     for (round, &(gi0, gi1)) in proof.rounds.iter().enumerate() {
         if gi0 + gi1 != current_sum {
             return Ok(false);
